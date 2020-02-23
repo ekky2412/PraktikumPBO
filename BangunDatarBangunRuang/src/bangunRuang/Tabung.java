@@ -22,7 +22,7 @@ public class Tabung extends Lingkaran{
         luasPermukaan();
     }
     public void luasPermukaan(){
-        super.setLuas(super.getLuas()*(super.getJari()*tinggi));
+        super.setLuas(2*super.getLuas()+super.getKeliling()*tinggi);
     }
 
     public void volume(){
