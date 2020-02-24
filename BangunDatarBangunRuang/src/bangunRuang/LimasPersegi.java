@@ -29,6 +29,7 @@ public class LimasPersegi extends Persegi{
         return Math.sqrt(Math.pow(this.tinggi, 2)+Math.pow((super.getSisi()/2), 2));
     }
 
+    @Override
     public void volume(){
         this.volume = super.Luas()*tinggi/3;
     }

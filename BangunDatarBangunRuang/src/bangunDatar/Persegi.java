@@ -23,5 +23,8 @@ public class Persegi extends BangunDatar {
     public int getSisi() {
         return sisi;
     }
+
+    public void volume() {
+    }
     
 }

@@ -35,6 +35,7 @@ public class LimasPersegiPanjang extends PersegiPanjang{
         return Math.sqrt(Math.pow(this.tinggi, 2)+Math.pow((super.getPanjang()/2), 2));
     }
 
+    @Override
     public void volume(){
         this.volume = super.Luas()*tinggi/3;
     }

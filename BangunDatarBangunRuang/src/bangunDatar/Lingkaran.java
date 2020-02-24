@@ -25,4 +25,7 @@ public class Lingkaran extends BangunDatar{
         super.setKeliling(phi*jari*2);
     }
     
+    public void volume(){
+    
+    }
 }

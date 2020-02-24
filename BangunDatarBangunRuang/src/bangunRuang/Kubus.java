@@ -16,6 +16,7 @@ public class Kubus extends Persegi{
         super.setLuas(6*super.Luas());
     }
     
+    @Override
     public void volume(){
         this.volume = super.Luas()*super.getSisi();
     }

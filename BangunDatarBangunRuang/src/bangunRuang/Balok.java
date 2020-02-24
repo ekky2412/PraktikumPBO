@@ -10,6 +10,11 @@ public class Balok extends PersegiPanjang{
         volume();
         luasPermukaan();
     }
+    @Override
+    public void volume(){
+        this.volume = super.Luas()*this.tinggi;
+    }    
+
     public void luasPermukaan(){
         double luas = 2*(super.getPanjang()*super.getLebar()
                 + super.getPanjang()*this.tinggi
@@ -17,9 +22,6 @@ public class Balok extends PersegiPanjang{
         super.setLuas(luas);
     }
 
-    public void volume(){
-        this.volume = super.Luas()*this.tinggi;
-    }
 
     public double getVolume() {
         return volume;

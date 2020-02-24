@@ -24,6 +24,7 @@ public class Bola extends Lingkaran{
         super.setLuas(super.Luas()*4);
     }
 
+    @Override
     public void volume(){
         this.volume = Math.pow(super.getJari(), 3)*super.getPhi()*4/3;
     }

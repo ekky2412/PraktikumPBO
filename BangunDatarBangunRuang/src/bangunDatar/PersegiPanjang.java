@@ -36,5 +36,7 @@ public class PersegiPanjang extends BangunDatar{
         float keliling = 2*this.panjang + 2*this.lebar;
         super.setKeliling(keliling);
     }
-
+    public void volume(){
+        
+    }
 }

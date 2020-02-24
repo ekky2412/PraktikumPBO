@@ -25,6 +25,7 @@ public class Tabung extends Lingkaran{
         super.setLuas(2*super.Luas()+super.Keliling()*tinggi);
     }
 
+    @Override
     public void volume(){
         this.volume = super.Luas()*this.tinggi;
     }
