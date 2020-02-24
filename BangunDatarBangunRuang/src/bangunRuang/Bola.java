@@ -21,7 +21,7 @@ public class Bola extends Lingkaran{
         luasPermukaan();
     }
     public void luasPermukaan(){
-        super.setLuas(super.getLuas()*4);
+        super.setLuas(super.Luas()*4);
     }
 
     public void volume(){

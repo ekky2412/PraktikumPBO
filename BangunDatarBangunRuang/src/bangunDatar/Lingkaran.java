@@ -22,7 +22,7 @@ public class Lingkaran extends BangunDatar{
     }
 
     public void keliling(){
-        super.setKeliling(phi*jari*2*10/10);
+        super.setKeliling(phi*jari*2);
     }
     
 }

@@ -18,7 +18,7 @@ public class Balok extends PersegiPanjang{
     }
 
     public void volume(){
-        this.volume = super.getLuas()*this.tinggi;
+        this.volume = super.Luas()*this.tinggi;
     }
 
     public double getVolume() {

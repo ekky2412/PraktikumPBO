@@ -11,11 +11,11 @@ public class BangunDatar {
         this.Keliling=Keliling;
     }
 
-    public double getLuas() {
+    public double Luas() {
         return Luas;
     }
 
-    public double getKeliling() {
+    public double Keliling() {
         return Keliling;
     }
     

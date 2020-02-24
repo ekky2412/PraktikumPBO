@@ -22,11 +22,11 @@ public class Tabung extends Lingkaran{
         luasPermukaan();
     }
     public void luasPermukaan(){
-        super.setLuas(2*super.getLuas()+super.getKeliling()*tinggi);
+        super.setLuas(2*super.Luas()+super.Keliling()*tinggi);
     }
 
     public void volume(){
-        this.volume = super.getLuas()*this.tinggi;
+        this.volume = super.Luas()*this.tinggi;
     }
 
     public double getVolume() {

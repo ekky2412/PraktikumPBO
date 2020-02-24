@@ -22,7 +22,7 @@ public class LimasPersegi extends Persegi{
     }
     
     public void luasPermukaan(){
-        super.setLuas(super.getLuas()+(4*super.getSisi()*this.tinggiSegitiga()/2));
+        super.setLuas(super.Luas()+(4*super.getSisi()*this.tinggiSegitiga()/2));
     }
     
     public double tinggiSegitiga(){
@@ -30,7 +30,7 @@ public class LimasPersegi extends Persegi{
     }
 
     public void volume(){
-        this.volume = super.getLuas()*tinggi/3;
+        this.volume = super.Luas()*tinggi/3;
     }
 
     public double getVolume() {

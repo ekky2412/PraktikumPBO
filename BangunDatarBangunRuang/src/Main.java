@@ -26,22 +26,22 @@ public class Main {
                     case 1:
                         System.out.print("Input Sisi : ");
                         BangunDatar bPersegi = new Persegi(input.nextInt());
-                        System.out.println("Luas Persegi : "+bPersegi.getLuas());
-                        System.out.println("Keliling Persegi : "+bPersegi.getKeliling());
+                        System.out.println("Luas Persegi : "+bPersegi.Luas());
+                        System.out.println("Keliling Persegi : "+bPersegi.Keliling());
                         break;
                     case 2:
                         System.out.print("Input Panjang : ");
                         int panjang=input.nextInt();
                         System.out.print("Input Lebar : ");
                         BangunDatar bPersegiPanjang = new PersegiPanjang(panjang,input.nextInt());
-                        System.out.println("Luas Persegi : "+bPersegiPanjang.getLuas());
-                        System.out.println("Keliling Persegi : "+bPersegiPanjang.getKeliling());
+                        System.out.println("Luas Persegi : "+bPersegiPanjang.Luas());
+                        System.out.println("Keliling Persegi : "+bPersegiPanjang.Keliling());
                         break;
                     case 3:
                         System.out.print("Input Jari-jari : ");
                         BangunDatar bLingkaran = new Lingkaran(input.nextInt());
-                        System.out.println("Luas Persegi : "+bLingkaran.getLuas());
-                        System.out.println("Keliling Persegi : "+bLingkaran.getKeliling());
+                        System.out.println("Luas Persegi : "+bLingkaran.Luas());
+                        System.out.println("Keliling Persegi : "+bLingkaran.Keliling());
                         break;
                 }
                 break;
@@ -59,7 +59,7 @@ public class Main {
                     case 1:
                         System.out.print("Input Sisi : ");
                         Kubus bKubus = new Kubus(input.nextInt());
-                        System.out.println("Luas Kubus : "+bKubus.getLuas());
+                        System.out.println("Luas Kubus : "+bKubus.Luas());
                         System.out.println("Volume Kubus : "+bKubus.getVolume());
                         break;
                     case 2:
@@ -69,7 +69,7 @@ public class Main {
                         int lebar=input.nextInt();
                         System.out.print("Input Tinggi : ");
                         Balok bBalok = new Balok(panjang,lebar,input.nextInt());
-                        System.out.println("Luas Permukaan Balok : "+bBalok.getLuas());
+                        System.out.println("Luas Permukaan Balok : "+bBalok.Luas());
                         System.out.println("Volume Balok : "+bBalok.getVolume());
                         break;
                     case 3:
@@ -77,7 +77,7 @@ public class Main {
                         int jari=input.nextInt();
                         System.out.print("Input Tinggi : ");
                         Tabung bTabung = new Tabung(jari,input.nextInt());
-                        System.out.println("Luas Permukaan Tabung : "+bTabung.getLuas());
+                        System.out.println("Luas Permukaan Tabung : "+bTabung.Luas());
                         System.out.println("Volume Tabung : "+bTabung.getVolume());
                         break;
                     case 4:
@@ -85,7 +85,7 @@ public class Main {
                         int sisi=input.nextInt();
                         System.out.print("Input Tinggi : ");
                         LimasPersegi bLimas = new LimasPersegi(sisi,input.nextInt());
-                        System.out.println("Luas Permukaan Limas Persegi : "+bLimas.getLuas());
+                        System.out.println("Luas Permukaan Limas Persegi : "+bLimas.Luas());
                         System.out.println("Volume Limas Persegi : "+bLimas.getVolume());
                         break;
                     case 5:
@@ -95,13 +95,13 @@ public class Main {
                         lebar=input.nextInt();
                         System.out.print("Input Tinggi : ");
                         LimasPersegiPanjang bLimasPersegiPanjang = new LimasPersegiPanjang(panjang,lebar,input.nextInt());
-                        System.out.println("Luas Permukaan Limas Persegi Panjang : "+bLimasPersegiPanjang.getLuas());
+                        System.out.println("Luas Permukaan Limas Persegi Panjang : "+bLimasPersegiPanjang.Luas());
                         System.out.println("Volume Limas Persegi Panjang : "+bLimasPersegiPanjang.getVolume());
                         break;
                     case 6:
                         System.out.print("Input Jari-jari : ");
                         Bola bBola = new Bola(input.nextInt());
-                        System.out.println("Luas Permukaan Limas Bola : "+bBola.getLuas());
+                        System.out.println("Luas Permukaan Limas Bola : "+bBola.Luas());
                         System.out.println("Volume Limas Bola : "+bBola.getVolume());
                         break;
                 }
